@@ -1,17 +1,31 @@
 {
   "name": "flight-client",
   "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "antd": "^5.25.3",
+    "axios": "^1.9.0",
+    "bootstrap": "^5.3.6",
+    "date-fns": "^4.1.0",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.1",
+    "react-toastify": "^11.0.5",
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
-    "vite": "^4.5.0",
-    "@vitejs/plugin-react": "^4.1.0"
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^4.5.0"
   }
 }
